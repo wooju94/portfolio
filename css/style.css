@@ -106,4 +106,35 @@
     border-radius: 4px;
   }
 
-  
+  /* home */
+  #home {background-color: var(--color-primary);
+         color: var(--color-text);
+          padding: 7rem 1rem 5rem;
+          text-align: center;}
+
+    .home__avatar {width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 3px solid var(--color-accent);
+    object-fit: cover;} 
+          /* object-fit: cover; 이미지가 부모 요소의 크기에 맞춰 비율을 유지하면서 꽉 차도록 설정 */
+    
+          .home__title__string{color: var(--color-accent);}
+          .home__description{font-size: 1.5rem;}
+          .home__contact{display: inline-block;
+                         background-color: var(--color-accent);
+                         color: var(--color-black);
+                         margin: 2rem;
+                         padding: 0.5rem 1rem;
+                         font-weight: bold;
+                         border-radius: 4px;}
+
+        .home_contact:hover {
+                            background-color: transparent;
+                            color: var(--color-text);
+                            outline: 2px solid var(--color-accent);
+                          }
+        .home__title{font-size: 3rem;
+            margin-bottom: 1rem;}
+        
+        
